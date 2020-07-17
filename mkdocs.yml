@@ -4,7 +4,7 @@ theme:
   name: "material"
   palette:
     primary: orange
-    accent: otange
+    accent: orange
 
 plugins:
     - mkdocstrings:
