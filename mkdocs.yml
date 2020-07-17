@@ -1,0 +1,17 @@
+site_name: ドキュメント！！！
+
+theme:
+  name: "readthedocs"
+  palette:
+    primary: orange
+    accent: otange
+
+plugins:
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+          python:
+              rendering:
+                  show_source: false  
+      watch:
+          - src/fox
